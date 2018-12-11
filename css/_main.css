@@ -1,0 +1,38 @@
+@import "_mz.css";
+@import "_sa.css";
+@import "_nv.css";
+@import "_null.css";
+@import "_lists.css";
+@import "_anim.css";
+@import "_card.css";
+@import "_filt.css";
+@import "_fonts.css";
+@import "_color.css";
+@import "_portfolio.css";
+@import "_form.css";
+@import "_icon.css";
+body{
+  background-color: rgba(208,208,208, 0.8);
+}
+.col-info{
+  padding-top: 10px;
+  
+}
+.col-info .card-panel{
+  border-radius: 5px;
+}
+.collection li.collection-item.avatar a{
+  margin: 5px;
+}
+.bd-purple-l{
+  border-left: 2px solid purple !important;
+}
+.bd-purple-r{
+  border-right: 2px solid purple !important;
+}
+.bd-purple-t{
+  border-top: 2px solid purple !important;
+}
+.bd-purple-b{
+  border-bottom: 2px solid purple !important;
+}

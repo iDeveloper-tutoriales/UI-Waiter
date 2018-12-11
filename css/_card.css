@@ -1,0 +1,128 @@
+.card .card-image, .card .card-image > img {
+  background-color: purple;
+  min-height: 200px
+}
+.card-article .card-title{
+  background-color: purple;
+  padding: 10px 20px !important;
+}
+.card-article .card-date{
+  font-size: 2em; font-weight: bold;
+  width: 70px; height: 70px;
+  position: absolute; z-index: 5;
+  padding: 5px !important;
+  border-radius: 50%;
+  top:10px; right: 10px;
+}
+.card-article .card-date span{display: block; margin-top: 0.3em;}
+.card.card-list{
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.card.card-list .title{
+  margin: 6px auto;
+  font-size: 1.4em;
+}
+.card.card-list .content{
+  color: grey;
+}
+.card-article .card-avatar,
+.card-user  .card-avatar{
+  border-radius: 50%;
+  border: 2px solid white;
+  position: relative;
+  overflow: hidden;
+}
+.card-article .card-avatar{
+  width: 150px; height: 150px;
+  margin: -20% calc(50% - 75px) 5px calc(50% - 75px);
+}
+.card-user .card-image{
+  height: 250px;
+  background-color: purple;
+}
+.card-user .card-avatar{
+  width: 100px; height: 100px;
+  margin: -200px calc(50% - 50px) 20px calc(50% - 50px);
+}
+.card-user .title{
+  margin: 1px 0;
+  font-weight: bold;
+}
+.card-user .sub-title{
+  margin: 10px 0;
+}
+.card-user .title,
+.card-user .sub-title{
+  display: block;
+  position: relative;
+}
+.card-user .card-content{
+  width: 90%;
+  position: relative;
+  background-color: white;
+  margin: 1px 5%;
+}
+.card-avatar img{
+  width:100% ;
+}
+.card .card-header {
+  min-height: 45px;
+  z-index: 1;
+  padding: 5px 5px;
+  position: relative;
+  background-color: #FFF;
+}
+.card .card-header .header-title{
+  margin: 5px 5px;
+  font-size: 1.3em;
+}
+.card-item >.card-header {
+  min-height: 43px;
+  z-index: 1;
+  padding: 5px 5px;
+  position: relative;
+  background-color: #FFF;
+}
+.card-item >.card-header > * {
+  display: inline-block;
+  top: 0;
+}
+.card-item >.card-header > .card-info{
+  position: absolute;
+}
+.card-item >.card-header > .card-info *{
+  padding: 0;
+  margin: 0 0 0 10px;
+}
+.card-item >.card-header > .card-avatar{
+  height: 43px;
+  width:43px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.circle {
+    display: inline-block;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    width: 37px;
+    height: 37px;
+    line-height: 37px;
+    padding: 0;
+    background-color: #1DAFB6;
+    border-radius: 50%;
+    transition: .3s;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.circle i {
+    width: inherit;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 37px;
+}

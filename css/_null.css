@@ -1,0 +1,13 @@
+.not-border{
+  border: none !important;
+}
+.not-shadow{
+  box-shadow:0px 0px 0px rgba(0,0,0,.0) !important;
+  -webkit-box-shadow:0px 0px 0px rgba(0,0,0,.0) !important;
+}
+.not-shadow-border,
+.not-border-shadow{
+  border: none !important;
+  box-shadow:0px 0px 0px rgba(0,0,0,.0) !important;
+  -webkit-box-shadow:0px 0px 0px rgba(0,0,0,.0) !important;
+}
